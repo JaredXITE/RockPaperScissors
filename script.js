@@ -20,6 +20,8 @@ const SELECTIONS = [
   }
 ]
 
+console.log('hello');
+
 selectionButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection
